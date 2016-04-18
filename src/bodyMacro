@@ -59,7 +59,7 @@ Sub amandaTran_bodyMacro()
         .EvenlySpaced = True
         .LineBetween = False
         .Width = InchesToPoints(3.5)
-        .Spacing = InchesToPoints(0.24)
+        .Spacing = InchesToPoints(0.24) %* Place this line before the width line above
     End With
     With Selection.ParagraphFormat
         .LeftIndent = InchesToPoints(0)
